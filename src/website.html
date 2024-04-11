@@ -1,0 +1,702 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+
+<link href="../generic/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../generic/css/main.css" rel="stylesheet" type="text/css" />
+<link href="../generic/css/reel.css" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Signika:300,400,600,700' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<title>Victoria Cinema</title>
+<script src="../generic/js/jquery.min.js" type="text/javascript"></script>
+<script src="../generic/js/jquery.lightbox-0.5.min.js" type="text/javascript"></script>
+<script src="../generic/js/jquery.timer.js" type="text/javascript"></script>
+<script src="../generic/js/jquery.preload.min.js" type="text/javascript"></script>
+<script src="../cvu/modules/prenoRapido.js" type="text/javascript"></script>
+<script src="../cvu/modules/cvu_tracker.js" type="text/javascript"></script>
+<script src="../cvu/modules/clientProgFile.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&v=3.7&key=AIzaSyAMl_bc-7xx527tIuB0JwQdR2g6MX86qXI" type="text/javascript"></script>
+
+<script src="https://contents.creaweb.it/cookie/jquery.cookie.js" type="text/javascript"></script>
+<script src="https://contents.creaweb.it/cookie/cookie_policy.js" type="text/javascript"></script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-7094040-14', 'auto');
+	ga('send', 'pageview');
+	ga('set', 'anonymizeIP',true);
+</script>
+<script src="../generic/js/navi.js" type="text/javascript"></script><link href="../generic/css/programmazione.css" rel="stylesheet" type="text/css" />
+<script src="../cvu/modules/clientProgFile.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="container">
+	<span class="cinema" id="1760" style="display:none;"></span>
+<span class="webtic" id="5103" style="display:none;"></span>
+<script src="../cvu/modules/bannerTag.js" type="text/javascript"></script><style>div#container {background:url("../../contentImages/banner/") no-repeat scroll center top #000000}</style>
+	<div id="header">
+    	<div id="header_body">
+        	<a title="Victoria Cinema" href="../victoria_cinema/index.php"><img src="images/logo.png" alt="Victoria Cinema" title="Victoria Cinema" id="logo"/></a>
+            <div id="banner_leaderboard1">
+						<div style="text-align:center;"><img style="position:absolute; top:30px;" src="../generic/images/loader.gif" /></div>		<span class="banner_exp"></span>		<a href="../generic/scheda.php?id=44392#inside" class="cvuTrack" sender="[LEADERBOARD1]monkeyman][44392][LEADERBOARD][][.jpg" filename="monkeyman][44392][LEADERBOARD][][.jpg"><img src="../contentImages/banner/monkeyman][44392][LEADERBOARD][][.jpg" time="3000" id="leaderboard1_0" class="leaderboard1" tot="4" /></a>
+		<a href="../generic/scheda.php?id=44342#inside" class="cvuTrack" sender="[LEADERBOARD1]godzillaekongilnuovoimpero][44342][LEADERBOARD][][.jpg" filename="godzillaekongilnuovoimpero][44342][LEADERBOARD][][.jpg"><img src="../contentImages/banner/godzillaekongilnuovoimpero][44342][LEADERBOARD][][.jpg" time="3000" id="leaderboard1_1" class="leaderboard1" tot="4" /></a>
+		<a href="../generic/scheda.php?id=44212#inside" class="cvuTrack" sender="[LEADERBOARD1]unmondoaparte2024][44212][LEADERBOARD][][.jpg" filename="unmondoaparte2024][44212][LEADERBOARD][][.jpg"><img src="../contentImages/banner/unmondoaparte2024][44212][LEADERBOARD][][.jpg" time="3000" id="leaderboard1_2" class="leaderboard1" tot="4" /></a>
+		<a href="" class="cvuTrack" sender="[LEADERBOARD1]" filename=""><img src="../contentImages/banner/" time="0" id="leaderboard1_3" class="leaderboard1" tot="4" /></a>
+
+				<script>var leaderboard1Max;var srcImg_leaderboard1 = new Array();$(".leaderboard1").hide();$.preload("#banner_leaderboard1 img", {onFinish:function(data){$("#banner_leaderboard1 div").hide();var j = 0;$("#banner_leaderboard1 .leaderboard1").each(function() {srcImg_leaderboard1[j] = $(this).attr("src");j++;});$(".leaderboard1").attr("src", "../generic/images/pix.gif");startleaderboard1(srcImg_leaderboard1);}});function startleaderboard1(srcImg) {$(".leaderboard1").hide();$("#leaderboard1_0").attr("src", srcImg[0]);$("#leaderboard1_0").show();var leaderboard1banner_leaderboard1 = 1;$.timer($("#leaderboard1_0").attr("time"), function (timer) {timer.reset($("#leaderboard1_"+leaderboard1banner_leaderboard1).attr("time"));leaderboard1Max = $(".leaderboard1").attr("tot");$(".leaderboard1").hide();$("#leaderboard1_"+leaderboard1banner_leaderboard1).attr("src", srcImg[leaderboard1banner_leaderboard1]);$("#leaderboard1_"+leaderboard1banner_leaderboard1).show();if(leaderboard1banner_leaderboard1 < leaderboard1Max-1)	leaderboard1banner_leaderboard1++;else leaderboard1banner_leaderboard1 = 0;});}</script>			</div>
+            <div id="menu">
+            	<!--<div class="btt_menu" id="btt_menu_programmazione">
+					<a title="Programmazione" href="../victoria_cinema/index.php" class="menu_link">PROGRAMMAZIONE</a>
+				</div>-->
+					<div class="btt_menu" id="btt_menu_home">
+					<a title="Programmazione" href="../victoria_cinema/index.php" class="menu_link">HOME</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_prossimamente">
+					<a title="Prossimamente" href="../victoria_cinema/prossimamente.php" class="menu_link">PROSSIMAMENTE</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_eventi">
+					<a title="Eventi" href="../victoria_cinema/eventi.php" class="menu_link">EVENTI</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_rassegne">
+					<a title="Rassegne" href="../victoria_cinema/rassegne.php" class="menu_link">RASSEGNE</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_prezziecard">
+					<a title="Prezzi e Card" href="../victoria_cinema/prezziecard.php" class="menu_link">PREZZI</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_infocinema">
+					<a title="Info Cinema" href="../victoria_cinema/infocinema.php" class="menu_link">INFO</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_dovesiamo">
+					<a title="Dove Siamo" href="../victoria_cinema/dovesiamo.php" class="menu_link">DOVE SIAMO</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_secondotempo">
+					<a title="Dove Siamo" href="../victoria_cinema/secondotempo.php" class="menu_link">SECONDO TEMPO</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_newsletter">
+					<a title="Newsletter" href="../generic/newsletter.php" class="menu_link">NEWSLETTER</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_compleanni">
+					<a title="Compleanni" href="../victoria_cinema/compleanni.php" class="menu_link">COMPLEANNI</a>
+				</div>
+            </div>
+        </div>
+        <!--header_body close-->
+    </div>
+    <!--header close-->    
+    <script src="../generic/js/jssor.slider.mini.js" type="text/javascript"></script>
+<script>
+	jQuery(document).ready(function ($) {
+
+		var _SlideshowTransitions = [
+	  
+		];
+
+		var options = {
+			$AutoPlay: true,
+			$AutoPlaySteps: 1,
+			$AutoPlayInterval: 4000,
+
+			$SlideshowOptions: {
+				$Class: $JssorSlideshowRunner$,
+				$Transitions: _SlideshowTransitions,
+				$TransitionsOrder: 1,
+				$ShowLink: true
+			},
+
+			$BulletNavigatorOptions: {
+				$Class: $JssorBulletNavigator$,
+				$ChanceToShow: 2,
+				$AutoCenter: 0,
+				$Steps: 1,
+				$Lanes: 1,
+				$SpacingX: 10,
+				$SpacingY: 10,
+				$Orientation: 1
+			},
+
+			$ArrowNavigatorOptions: {
+				$Class: $JssorArrowNavigator$,
+				$ChanceToShow: 2
+			}
+		};
+
+		var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+		
+		
+	});
+</script>
+
+    <div id="reel">
+    	<div id="reel_body">
+        
+        	<div id="reel_box">
+        		<div id="banner_reel">
+			
+			
+			 		<div id="slider2_container">
+			
+						<div u="slides" class="slides"><div><a href="#" class="cvuTrack noLink" sender="[REEL]foodforprofit][44454][REEL][VICTORIA_VICTORIA_CINEMA][.jpg" filename="foodforprofit][44454][REEL][VICTORIA_VICTORIA_CINEMA][.jpg"><img src="../contentImages/banner/foodforprofit][44454][REEL][VICTORIA_VICTORIA_CINEMA][.jpg" time="6000" id="reel_0" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]kungfupanda4originalversion][44501][REEL][VICTORIA_VICTORIA_CINEMA][.jpg" filename="kungfupanda4originalversion][44501][REEL][VICTORIA_VICTORIA_CINEMA][.jpg"><img src="../contentImages/banner/kungfupanda4originalversion][44501][REEL][VICTORIA_VICTORIA_CINEMA][.jpg" time="6000" id="reel_1" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]colazione.jpg" filename="colazione.jpg"><img src="../contentImages/banner/colazione.jpg" time="6000" id="reel_2" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]kungfupanda4][44213][REEL][][.jpg" filename="kungfupanda4][44213][REEL][][.jpg"><img src="../contentImages/banner/kungfupanda4][44213][REEL][][.jpg" time="6000" id="reel_3" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]maydecember][44391][REEL][][.jpg" filename="maydecember][44391][REEL][][.jpg"><img src="../contentImages/banner/maydecember][44391][REEL][][.jpg" time="6000" id="reel_4" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]anotherend][44312][REEL][][.jpg" filename="anotherend][44312][REEL][][.jpg"><img src="../contentImages/banner/anotherend][44312][REEL][][.jpg" time="6000" id="reel_5" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]ledzeppelinthesongremainsthesame][44447][REEL][][.jpg" filename="ledzeppelinthesongremainsthesame][44447][REEL][][.jpg"><img src="../contentImages/banner/ledzeppelinthesongremainsthesame][44447][REEL][][.jpg" time="6000" id="reel_6" class="reel" tot="9" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]priscilla][44424][REEL][][.jpg" filename="priscilla][44424][REEL][][.jpg"><img src="../contentImages/banner/priscilla][44424][REEL][][.jpg" time="6000" id="reel_7" class="reel" tot="9" /></a>
+</div></div>				
+                		<div u="navigator" class="jssorb01" style="position: absolute; top:306px; left:0px; bottom: 16px; right: 10px;">
+                    		<!-- bullet navigator item prototype -->
+                    		<div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+                		</div>
+                
+                
+                		<span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
+                		</span>
+                		<!-- Arrow Right -->
+                		<span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
+                		</span>
+                		<!-- Arrow Navigator Skin End -->
+            		</div>
+           		</div>
+        	</div>
+        	
+        	<div id="lastminute">
+            	<div id="lastminute_title"><span class="custom_md c1 big"><i class="fa fa-chevron-circle-down"></i> VCARD</span><br />
+            	<table width="270">
+  <tr>
+    <td style="vertical-align: top;"><img src="../generic/images/cardPrezzi.png" width="100" /></td>
+    <td style="vertical-align: top;"><span class="custom_lt big"><br />Per risparmiare sul biglietto<br />Per guadagnare tempo<br />Per evitare le code<br />Per prenotare gratis<br />Non sono nominative, non sono rimborsabili, sono utilizzabili tutti i giorni.<br /><br /><a href="../generic/abbonamenti.php?sc=5103#seatsframe" class="link linkExt"><strong>CLICCA ED ACQUISTA ORA!</strong></a></span></td>
+  </tr>
+</table>
+            </div>
+            </div>
+            
+            <!--<div id="lastminute">
+            	<div id="lastminute_title"><span class="custom_md c1 big"><i class="fa fa-chevron-circle-down"></i> LAST MINUTE FILM</span><br />
+                <span class="custom_lt big">Ogni mercoledì un film a soli &euro; 4,00!</span></div>
+        			
+				<img src="" id="lastLoc" alt="Last Minute Film" title="Last Minute Film"/>
+				<div id="lastTitle"></div>
+				<div id="lastInfo"></div>
+            </div>-->
+            
+            <div id="englishmovie">
+            	<div id="englishmovie_title"><span class="custom_md c1 big"><i class="fa fa-chevron-circle-down"></i> RASSEGNA EVENTI</span><br />
+                <!--<span class="custom_lt big">Ogni martedì un film in lingua originale!</span></div>-->
+            		
+				<div id="engTitle"></div>
+				<div id="engInfo"> <!--ore 17.50 e 21.00--></strong></div>
+				<div id="engBtt"><a href="../victoria_cinema/rassegne.php#linguaOriginale" class="link_engBtt">VISUALIZZA IL CALENDARIO</a></div>
+            </div>
+        
+        </div>
+        <!--reel_body close-->
+    </div>
+    <!--reel close-->    
+    	<a name="inside"></a>
+    <div id="prenotaRapido">    	
+    	<div id="prenotaRapido_body">
+        	<a name="seatsframe"></a> 
+        	<div id="title_prenotaRapido"><span class="c1">PRENOTA &amp; ACQUISTA</span> IN POCHI CLICK!</div>
+        	<form id="prenoRapido">
+            	<select id="sel_cine">
+                    <option value="null">Scegli il CINEMA</option>
+                </select>
+                
+                <select id="sel_film">
+                    <option value="null">Scegli il FILM</option>
+                </select>
+                
+                <select id="sel_giorno">
+                    <option value="null">Scegli il GIORNO</option>
+                </select>
+                
+                <select id="sel_ora">
+                    <option value="null">Scegli l'ORA</option>
+                </select>
+                <!--<div id="prenotaRapido_btt"></div>-->
+            </form>
+        </div>
+        <!--prenotaRapido_body close-->
+    </div>    
+    <div id="content">
+    	<div id="content_body">
+        	<div id="content_body_left">
+            
+            	<div id="box_acquistaSubito">
+                    <div class="closeBox">x</div>
+                    <div class="orario">99:99</div>
+                    <div class="link_acquista">Acquista<br/>subito</div>
+                </div>
+				 
+				
+				
+                <div class="progIstr">Clicca sull'orario e <strong>acquista</strong> il biglietto.<br />Clicca sul bottone <em>Scheda film</em> per visualizzare la <strong>scheda film</strong>.<br /><br />
+
+				<!--<br />
+				<span class="c1"><strong>DISPOSIZIONI DI SICUREZZA COVID</strong><br /><br />
+				&#8226;  dal 6 agosto si può accedere alle sale solo con GREEN PASS (necessario dal 12 anni in su);<br />
+				&#8226; è obbligatorio indossare la mascherina in tutti gli spazi del cinema e durante la proiezione del film;<br />
+				&#8226; è obbligatorio fornire i propri dati in fase di acquisto dei biglietti (Nome, cognome, recapito);<br />
+				&#8226; si raccomanda di mantenere la distanza di sicurezza in tutti gli spazi del cinema;<br />
+				&#8226; è obbligatorio sedersi al posto assegnato in fase di acquisto (è possibile sedere vicini solo se si è congiunti);<br />
+				&#8226; si consiglia caldamente di prediligere i sistemi di prenotazione e acquisto online del biglietto
+				</span> -->
+
+
+				<!--<br /><br /><br />
+				<span class="c1">Da giovedì 31/08 i prezzi subiranno variazioni.
+				</span>
+				<br /><br /><br />  -->
+				
+
+				
+</div>
+                
+					
+				
+                <div id="programmazione" idCinema="1760">
+<div class="progData">PROGRAMMAZIONE DAL 21 AL 27 MARZO</div>
+
+
+		<div class="nextWeekBtt"><a href="index.php?week=next">Prossima settimana</a></div>
+		<a href="printProg.php" class="linkExt"><img class="printProgBtt" src="../generic/images/menuDays_stampa.gif" /></a>
+<div class="cineContainer">
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44424&type=news&ext=jpg" idFilm="44424" alt="PRISCILLA" title="PRISCILLA"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>PRISCILLA</div>
+			<div class="regia"><strong>Regia:</strong> Sofia Coppola</div>
+			<div class="genere"><strong>Genere:</strong> Biografico</div>
+			<div class="durata"><strong>Durata:</strong> 115'</div>
+			<div class="cast"><strong>Cast:</strong> Jacob Elordi, Cailee Spaeny, R Austin Ball</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44424"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div> n.d.</li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336937">18:00</span><span class="orario_" idcalend="336938">21:00</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44454&type=news&ext=jpg" idFilm="44454" alt="FOOD FOR PROFIT" title="FOOD FOR PROFIT"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>FOOD FOR PROFIT</div>
+			<div class="regia"><strong>Regia:</strong> Pablo D'Ambrosi, Giulia Innocenzi</div>
+			<div class="genere"><strong>Genere:</strong> Documentario</div>
+			<div class="durata"><strong>Durata:</strong> 101'</div>
+			<div class="cast"><strong>Cast:</strong> </div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44454"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336957">17:50</span><span class="orario_" idcalend="336862">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336958">17:50</span><span class="orario_" idcalend="336864">21:00</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div> n.d.</li>
+		</ul>
+	</div>
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44447&type=news&ext=jpg" idFilm="44447" alt="LED ZEPPELIN: THE SONG REMAINS THE SAME" title="LED ZEPPELIN: THE SONG REMAINS THE SAME"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>LED ZEPPELIN: THE SONG REMAINS THE SAME</div>
+			<div class="regia"><strong>Regia:</strong> Peter Clifton. Joe Massot</div>
+			<div class="genere"><strong>Genere:</strong> Documentario Musicale</div>
+			<div class="durata"><strong>Durata:</strong> 137'</div>
+			<div class="cast"><strong>Cast:</strong> Robert Plant, Jimmy Page, John Paul Jones</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44447"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336920">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336882">21:00</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336883">21:00</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44312&type=news&ext=jpg" idFilm="44312" alt="ANOTHER END" title="ANOTHER END"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>ANOTHER END</div>
+			<div class="regia"><strong>Regia:</strong> Piero Messina</div>
+			<div class="genere"><strong>Genere:</strong> Drammatico</div>
+			<div class="durata"><strong>Durata:</strong> 129'</div>
+			<div class="cast"><strong>Cast:</strong> Gael Garcia Bernal, Renate Reinsve, B&eacute;r&eacute;nice Bejo</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44312"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336817">19:30</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336811">18:00</span><span class="orario_" idcalend="336794">21:10</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336795">15:45</span><span class="orario_" idcalend="336796">18:20</span><span class="orario_" idcalend="336797">21:10</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336798">15:45</span><span class="orario_" idcalend="336799">18:20</span><span class="orario_" idcalend="336800">20:50</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336801">18:00</span><span class="orario_" idcalend="336802">20:50</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336803">18:00</span><span class="orario_" idcalend="336804">20:50</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336805">18:00</span><span class="orario_" idcalend="336806">20:50</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44213&type=news&ext=jpg" idFilm="44213" alt="KUNG FU PANDA 4" title="KUNG FU PANDA 4"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>KUNG FU PANDA 4</div>
+			<div class="regia"><strong>Regia:</strong> Mike Mitchell, Stephanie Stine</div>
+			<div class="genere"><strong>Genere:</strong> Animazione</div>
+			<div class="durata"><strong>Durata:</strong> 94'</div>
+			<div class="cast"><strong>Cast:</strong> </div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44213"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336775">17:40</span><span class="orario_" idcalend="336851">18:15</span><span class="orario_" idcalend="336776">20:30</span><span class="orario_" idcalend="336852">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336777">17:40</span><span class="orario_" idcalend="336853">18:15</span><span class="orario_" idcalend="336778">20:30</span><span class="orario_" idcalend="336854">21:00</span><span class="orario_" idcalend="336781">22:30</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336782">15:40</span><span class="orario_" idcalend="336857">16:15</span><span class="orario_" idcalend="336955">17:30</span><span class="orario_" idcalend="336779">17:40</span><span class="orario_" idcalend="336855">18:15</span><span class="orario_" idcalend="336956">19:30</span><span class="orario_" idcalend="336780">20:30</span><span class="orario_" idcalend="336856">21:00</span><span class="orario_" idcalend="336783">22:30</span><span class="orario_" idcalend="336954">22:50</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336935">11:00</span><span class="orario_" idcalend="336975">15:30</span><span class="orario_" idcalend="336784">15:40</span><span class="orario_" idcalend="336858">16:15</span><span class="orario_" idcalend="336973">17:00</span><span class="orario_" idcalend="336785">17:40</span><span class="orario_" idcalend="336859">18:15</span><span class="orario_" idcalend="336974">19:00</span><span class="orario_" idcalend="336786">20:30</span><span class="orario_" idcalend="336860">21:00</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336787">17:40</span><span class="orario_" idcalend="336861">18:15</span><span class="orario_" idcalend="336788">20:30</span><span class="orario_" idcalend="336826">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336789">17:40</span><span class="orario_" idcalend="336863">18:15</span><span class="orario_" idcalend="336790">20:30</span><span class="orario_" idcalend="336828">21:00</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336865">17:40</span><span class="orario_" idcalend="336791">18:15</span><span class="orario_" idcalend="336792">20:30</span><span class="orario_" idcalend="336830">21:00</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44501&type=news&ext=jpg" idFilm="44501" alt="KUNG FU PANDA 4 | ORIGINAL VERSION" title="KUNG FU PANDA 4 | ORIGINAL VERSION"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>KUNG FU PANDA 4 | ORIGINAL VERSION</div>
+			<div class="regia"><strong>Regia:</strong> Mike Mitchell, Stephanie Stine</div>
+			<div class="genere"><strong>Genere:</strong> Animazione</div>
+			<div class="durata"><strong>Durata:</strong> 94'</div>
+			<div class="cast"><strong>Cast:</strong> </div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44501"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336900">17:30</span><span class="orario_" idcalend="336901">21:00</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div> n.d.</li>
+		</ul>
+	</div>
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44391&type=news&ext=jpg" idFilm="44391" alt="MAY DECEMBER" title="MAY DECEMBER"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo"><span class="newMovie">NEW! </span>MAY DECEMBER</div>
+			<div class="regia"><strong>Regia:</strong> Todd Haynes</div>
+			<div class="genere"><strong>Genere:</strong> Drammatico</div>
+			<div class="durata"><strong>Durata:</strong> 110'</div>
+			<div class="cast"><strong>Cast:</strong> Natalie Portman, Julianne Moore, Charles Melton</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44391"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336884">17:45</span><span class="orario_" idcalend="336885">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336886">17:45</span><span class="orario_" idcalend="336887">20:20</span><span class="orario_" idcalend="336892">22:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336894">15:30</span><span class="orario_" idcalend="336888">17:45</span><span class="orario_" idcalend="336889">20:20</span><span class="orario_" idcalend="336893">22:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336895">15:30</span><span class="orario_" idcalend="336890">17:45</span><span class="orario_" idcalend="336891">21:00</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336896">17:45</span><span class="orario_" idcalend="336897">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336847">17:45</span><span class="orario_" idcalend="336848">21:00</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336898">17:45</span><span class="orario_" idcalend="336899">21:00</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44423&type=news&ext=jpg" idFilm="44423" alt="FORCE OF NATURE - OLTRE L'INGANNO" title="FORCE OF NATURE - OLTRE L'INGANNO"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">FORCE OF NATURE - OLTRE L'INGANNO</div>
+			<div class="regia"><strong>Regia:</strong> Robert Connolly</div>
+			<div class="genere"><strong>Genere:</strong> Thriller</div>
+			<div class="durata"><strong>Durata:</strong> 120'</div>
+			<div class="cast"><strong>Cast:</strong> Eric Bana, Anna Torv, Deborra-Lee Furness</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44423"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336871">20:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336872">21:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336875">21:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336877">20:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div> n.d.</li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div> n.d.</li>
+		</ul>
+	</div>
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44311&type=news&ext=jpg" idFilm="44311" alt="IMAGINARY" title="IMAGINARY"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">IMAGINARY - V.M.14</div>
+			<div class="regia"><strong>Regia:</strong> Jeff Wadlow</div>
+			<div class="genere"><strong>Genere:</strong> Horror</div>
+			<div class="durata"><strong>Durata:</strong> 101'</div>
+			<div class="cast"><strong>Cast:</strong> DeWanda Wise, Tom Payne (II), Betty Buckley</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44311"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336833">18:30</span><span class="orario_" idcalend="336834">21:10</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336835">18:30</span><span class="orario_" idcalend="336836">20:40</span><span class="orario_" idcalend="336839">22:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336837">18:30</span><span class="orario_" idcalend="336838">20:40</span><span class="orario_" idcalend="336840">22:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336843">18:30</span><span class="orario_" idcalend="336844">21:10</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336845">18:30</span><span class="orario_" idcalend="336846">21:10</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div> n.d.</li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336849">18:30</span><span class="orario_" idcalend="336850">21:10</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44260&type=news&ext=jpg" idFilm="44260" alt="RACE FOR GLORY" title="RACE FOR GLORY"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">RACE FOR GLORY</div>
+			<div class="regia"><strong>Regia:</strong> Stefano Mordini</div>
+			<div class="genere"><strong>Genere:</strong> Thriller</div>
+			<div class="durata"><strong>Durata:</strong> 101'</div>
+			<div class="cast"><strong>Cast:</strong> Daniel Bruehl, Riccardo Scamarcio, Volker Bruch</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44260"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336902">17:45</span><span class="orario_" idcalend="336903">21:10</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336904">17:45</span><span class="orario_" idcalend="336905">20:30</span><span class="orario_" idcalend="336916">22:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336918">15:30</span><span class="orario_" idcalend="336906">17:45</span><span class="orario_" idcalend="336907">20:30</span><span class="orario_" idcalend="336917">22:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336919">15:30</span><span class="orario_" idcalend="336908">17:45</span><span class="orario_" idcalend="336909">21:10</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336910">17:45</span><span class="orario_" idcalend="336911">21:10</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336912">17:45</span><span class="orario_" idcalend="336913">21:10</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336914">17:45</span><span class="orario_" idcalend="336915">21:10</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44422&type=news&ext=jpg" idFilm="44422" alt="KINA E YUK ALLA SCOPERTA DEL MONDO" title="KINA E YUK ALLA SCOPERTA DEL MONDO"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">KINA E YUK ALLA SCOPERTA DEL MONDO</div>
+			<div class="regia"><strong>Regia:</strong> Guillaume Maidatchevsky</div>
+			<div class="genere"><strong>Genere:</strong> Family</div>
+			<div class="durata"><strong>Durata:</strong> 80'</div>
+			<div class="cast"><strong>Cast:</strong> </div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44422"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div> n.d.</li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336831">15:20</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336832">15:20</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div> n.d.</li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div> n.d.</li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div> n.d.</li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=43369&type=news&ext=jpg" idFilm="43369" alt="DUNE PARTE DUE" title="DUNE PARTE DUE"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">DUNE PARTE DUE</div>
+			<div class="regia"><strong>Regia:</strong> Denis Villeneuve</div>
+			<div class="genere"><strong>Genere:</strong> Fantascienza</div>
+			<div class="durata"><strong>Durata:</strong> 165'</div>
+			<div class="cast"><strong>Cast:</strong> Timoth&eacute;e Chalamet, Zendaya, Austin Butler</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="43369"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336818">17:45</span><span class="orario_" idcalend="336807">20:30</span><span class="orario_" idcalend="336819">21:00</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336793">17:45</span><span class="orario_" idcalend="336808">20:30</span><span class="orario_" idcalend="336821">21:30</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336841">15:15</span><span class="orario_" idcalend="336812">17:00</span><span class="orario_" idcalend="336809">20:30</span><span class="orario_" idcalend="336823">21:30</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336842">15:15</span><span class="orario_" idcalend="336813">17:00</span><span class="orario_" idcalend="336810">20:30</span><span class="orario_" idcalend="336824">21:00</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336825">17:45</span><span class="orario_" idcalend="336814">20:30</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336827">17:45</span><span class="orario_" idcalend="336815">20:30</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336829">17:45</span><span class="orario_" idcalend="336816">20:30</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer oddFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44302&type=news&ext=jpg" idFilm="44302" alt="EMMA E IL GIAGUARO NERO" title="EMMA E IL GIAGUARO NERO"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">EMMA E IL GIAGUARO NERO</div>
+			<div class="regia"><strong>Regia:</strong> Gilles de Maistre</div>
+			<div class="genere"><strong>Genere:</strong> Avventura</div>
+			<div class="durata"><strong>Durata:</strong> 101'</div>
+			<div class="cast"><strong>Cast:</strong> Emily Bett Rickards, Lumi Pollack, Wayne Charles Baker</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44302"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336866">17:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336867">17:40</span><span class="orario_" idcalend="336870">19:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336873">15:40</span><span class="orario_" idcalend="336868">17:40</span><span class="orario_" idcalend="336874">19:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336876">15:40</span><span class="orario_" idcalend="336869">17:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336878">17:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336879">17:40</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336880">17:40</span></li>
+		</ul>
+	</div>
+	<div class="filmContainer evenFilm">
+		<div class="locandina">
+			<div class="nomeCinema">Victoria Cinema</div>
+			<img src="../cvu/modules/img_switcher.php?idfilm=44263&type=news&ext=jpg" idFilm="44263" alt="LA ZONA D'INTERESSE" title="LA ZONA D'INTERESSE"/>
+		</div>
+		<div class="datiFilm">
+			<div class="titolo">LA ZONA D'INTERESSE</div>
+			<div class="regia"><strong>Regia:</strong> Jonathan Glazer</div>
+			<div class="genere"><strong>Genere:</strong> Drammatico</div>
+			<div class="durata"><strong>Durata:</strong> 105'</div>
+			<div class="cast"><strong>Cast:</strong> Sandra Hueller, Christian Friedel, Ralph Herforth</div>
+			<div class="prenota" idcinema="1760">&nbsp;</div>
+			<div class="scheda" idfilm="44263"><strong>SCHEDA</strong> FILM</div>
+		</div>
+		<ul class="orari">
+			<li class="hours oddHour pngFixed"><div class="dayName">Gioved&igrave;</div><span class="orario_" idcalend="336921">18:00</span><span class="orario_" idcalend="336922">20:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Venerd&igrave;</div><span class="orario_" idcalend="336923">18:00</span><span class="orario_" idcalend="336924">20:30</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Sabato</div><span class="orario_" idcalend="336925">18:00</span><span class="orario_" idcalend="336926">20:30</span><span class="orario_" idcalend="336972">22:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Domenica</div><span class="orario_" idcalend="336927">18:00</span><span class="orario_" idcalend="336928">20:40</span></li>
+			<li class="hours oddHour pngFixed"><div class="dayName">Luned&igrave;</div><span class="orario_" idcalend="336929">18:00</span><span class="orario_" idcalend="336930">20:40</span></li>
+			<li class="hours evenHour pngFixed"><div class="dayName">Marted&igrave;</div><span class="orario_" idcalend="336931">18:00</span><span class="orario_" idcalend="336932">20:40</span></li>
+			<li class="hours oddHour lastHour pngFixed"><div class="dayName">Mercoled&igrave;</div><span class="orario_" idcalend="336933">18:00</span><span class="orario_" idcalend="336934">20:40</span></li>
+		</ul>
+	</div>
+</div>
+</div>
+            
+            </div>
+            
+            <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+            
+            <div id="content_body_right">
+            
+            	<div id="social">
+                	<span class="custom_lt big"><i class="fa fa-chevron-circle-down"></i> SEGUICI SULLE NOSTRE <span class="custom_bd">PAGINE SOCIAL:</span></span><br />
+                	<a href="https://www.facebook.com/cinemavictoria.modena?ref=hl" class="link linkExt"><i class="fa fa-facebook-square"></i></a> <a href="https://twitter.com/VictoriaCinema?lang=it" class="link linkExt"><i class="fa fa-twitter-square"></i></a> <a href="https://plus.google.com/u/0/110892221190053862668/posts" class="link linkExt"><i class="fa fa-google-plus-square"></i></a> <a href="https://www.youtube.com/user/CinemaVictoriaModena" class="link linkExt"><i class="fa fa-youtube-square"></i></a> <a href="http://it.pinterest.com/cinemavictoria/" class="link linkExt"><i class="fa fa-pinterest-square"></i></a> <a href="http://instagram.com/cinemavictoriamodena" class="link linkExt"><i class="fa fa-instagram"></i></a>
+                </div>
+                
+                <div class="rectangle_box">
+                	<div class="fb-like-box" data-href="https://www.facebook.com/cinemavictoria.modena?ref=hl" data-width="300" data-height="300" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="false"></div>
+                </div>
+            
+            	<div class="rectangle_box">
+                	<div id="mondadori">
+    					<a href="../victoria_cinema/libreria.php#inside"><img src="../generic/images/logo_mondadori.jpg" width="300" height="73" /></a>
+                    </div>
+    			</div>
+            
+            	<div class="rectangle_box">
+    				<div id="rectangle1">
+        						<div style="text-align:center;"><img style="position:absolute; top:30px;" src="../generic/images/loader.gif" /></div>		<a href="../generic/scheda.php?id=44393#inside" class="cvuTrack" sender="[RECTANGLE1]omenloriginedelpresagio][44393][RECTANGLE][][.jpg" filename="omenloriginedelpresagio][44393][RECTANGLE][][.jpg"><img src="../contentImages/banner/omenloriginedelpresagio][44393][RECTANGLE][][.jpg" time="3000" id="rectangle1_0" class="rectangle1" tot="3" /></a>
+		<a href="../generic/scheda.php?id=44317#inside" class="cvuTrack" sender="[RECTANGLE1]ilmioamicorobot][44317][RECTANGLE][][.jpg" filename="ilmioamicorobot][44317][RECTANGLE][][.jpg"><img src="../contentImages/banner/ilmioamicorobot][44317][RECTANGLE][][.jpg" time="3000" id="rectangle1_1" class="rectangle1" tot="3" /></a>
+		<a href="" class="cvuTrack" sender="[RECTANGLE1]" filename=""><img src="../contentImages/banner/" time="0" id="rectangle1_2" class="rectangle1" tot="3" /></a>
+
+				<script>var rectangle1Max;var srcImg_rectangle1 = new Array();$(".rectangle1").hide();$.preload("#rectangle1 img", {onFinish:function(data){$("#rectangle1 div").hide();var j = 0;$("#rectangle1 .rectangle1").each(function() {srcImg_rectangle1[j] = $(this).attr("src");j++;});$(".rectangle1").attr("src", "../generic/images/pix.gif");startrectangle1(srcImg_rectangle1);}});function startrectangle1(srcImg) {$(".rectangle1").hide();$("#rectangle1_0").attr("src", srcImg[0]);$("#rectangle1_0").show();var rectangle1rectangle1 = 1;$.timer($("#rectangle1_0").attr("time"), function (timer) {timer.reset($("#rectangle1_"+rectangle1rectangle1).attr("time"));rectangle1Max = $(".rectangle1").attr("tot");$(".rectangle1").hide();$("#rectangle1_"+rectangle1rectangle1).attr("src", srcImg[rectangle1rectangle1]);$("#rectangle1_"+rectangle1rectangle1).show();if(rectangle1rectangle1 < rectangle1Max-1)	rectangle1rectangle1++;else rectangle1rectangle1 = 0;});}</script>					</div>
+    			</div>
+                
+                <div class="rectangle_box">
+    				<div id="rectangle2">
+        						<div style="text-align:center;"><img style="position:absolute; top:30px;" src="../generic/images/loader.gif" /></div>		<a href="../generic/scheda.php?id=44213#inside" class="cvuTrack" sender="[RECTANGLE2]kungfupanda4][44213][RECTANGLE][][.jpg" filename="kungfupanda4][44213][RECTANGLE][][.jpg"><img src="../contentImages/banner/kungfupanda4][44213][RECTANGLE][][.jpg" time="3000" id="rectangle2_0" class="rectangle2" tot="5" /></a>
+		<a href="../generic/scheda.php?id=44312#inside" class="cvuTrack" sender="[RECTANGLE2]anotherend][44312][RECTANGLE][][.jpg" filename="anotherend][44312][RECTANGLE][][.jpg"><img src="../contentImages/banner/anotherend][44312][RECTANGLE][][.jpg" time="3000" id="rectangle2_1" class="rectangle2" tot="5" /></a>
+		<a href="../generic/scheda.php?id=44470#inside" class="cvuTrack" sender="[RECTANGLE2]eravamobambini][44470][RECTANGLE][][.jpg" filename="eravamobambini][44470][RECTANGLE][][.jpg"><img src="../contentImages/banner/eravamobambini][44470][RECTANGLE][][.jpg" time="3000" id="rectangle2_2" class="rectangle2" tot="5" /></a>
+		<a href="../generic/scheda.php?id=44424#inside" class="cvuTrack" sender="[RECTANGLE2]priscilla][44424][RECTANGLE][][.jpg" filename="priscilla][44424][RECTANGLE][][.jpg"><img src="../contentImages/banner/priscilla][44424][RECTANGLE][][.jpg" time="3000" id="rectangle2_3" class="rectangle2" tot="5" /></a>
+		<a href="" class="cvuTrack" sender="[RECTANGLE2]" filename=""><img src="../contentImages/banner/" time="0" id="rectangle2_4" class="rectangle2" tot="5" /></a>
+
+				<script>var rectangle2Max;var srcImg_rectangle2 = new Array();$(".rectangle2").hide();$.preload("#rectangle2 img", {onFinish:function(data){$("#rectangle2 div").hide();var j = 0;$("#rectangle2 .rectangle2").each(function() {srcImg_rectangle2[j] = $(this).attr("src");j++;});$(".rectangle2").attr("src", "../generic/images/pix.gif");startrectangle2(srcImg_rectangle2);}});function startrectangle2(srcImg) {$(".rectangle2").hide();$("#rectangle2_0").attr("src", srcImg[0]);$("#rectangle2_0").show();var rectangle2rectangle2 = 1;$.timer($("#rectangle2_0").attr("time"), function (timer) {timer.reset($("#rectangle2_"+rectangle2rectangle2).attr("time"));rectangle2Max = $(".rectangle2").attr("tot");$(".rectangle2").hide();$("#rectangle2_"+rectangle2rectangle2).attr("src", srcImg[rectangle2rectangle2]);$("#rectangle2_"+rectangle2rectangle2).show();if(rectangle2rectangle2 < rectangle2Max-1)	rectangle2rectangle2++;else rectangle2rectangle2 = 0;});}</script>					</div>
+    			</div>
+                
+                <div id="app">
+                	<span class="custom_nm big"><i class="fa fa-chevron-circle-down"></i> VICTORIA CINEMA &Egrave; ANCHE <span class="custom_bd">APP</span>!</span>
+        			<div id="appstore">
+            			<a href="https://itunes.apple.com/it/app/id516785358?mt=8" class="link linkExt custom_lt big">SCARICA DA <span class="custom_md">APP STORE!</span></a>
+					</div>
+            		<div id="googleplay">
+            			<a href="https://play.google.com/store/apps/details?id=it.creaweb.victoria" class="link linkExt custom_lt big">SCARICA DA <span class="custom_md">GOOGLE PLAY!</span></a>
+					</div>
+        		</div>
+                
+                <div id="partner">
+                	
+                    
+					<a href="http://www.radiobruno.it" class="linkExt"><img src="../generic/images/logo_radiobruno.png" width="286" height="94" /></a><br /><br />
+					<a href="https://www.dolby.com/us/en/technologies/cinema/dolby-atmos.html" class="linkExt"><img src="../generic/images/logo_dolby.jpg" width="286" height="161" /></a><br /><br />
+                    
+					<a href="http://tadinieverza.eu" class="linkExt"><img src="../generic/images/logotadinieverza.jpg" width="280" height="300" /></a><br /><br />
+					<a href="https://www.modenafumetto.com" class="linkExt"><img src="../generic/images/logo_fumetto.jpg" width="288" height="224" /></a><br /><br />
+					<!--<a href="https://www.gimfive.com/palestra/Modena-ovest" class="linkExt"><img src="../generic/images/logo_gimefive.jpg" width="286" height="328" /></a><br /><br />-->
+					<!--<a href="https://ohmodena.it/" class="linkExt"><img src="../generic/images/logo_ohmodena.jpg" width="287" height="218" /></a><br /><br />-->
+                </div>
+            
+            </div>            
+        </div>
+        <!--content_body close-->
+    </div>
+    <!--content close-->
+    	<div id="footer">
+    	<div id="footer_body">
+        	<div id="footer_bodyList" class="clearfix">
+            	<div id="footer_bodyList_film">
+                	<div class="title">SCEGLI IL FILM</div>
+					<div class="movieList"><div class="movieLink"><a href="../generic/scheda.php?id=44312#inside">another end</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43369#inside">dune parte due</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44302#inside">emma e il giaguaro nero</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44454#inside">food for profit</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44342#inside">godzilla e kong - il nuovo impero</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44311#inside">imaginary <span class="censura">V.M.14</span></a></div><div class="movieLink"><a href="../generic/scheda.php?id=44213#inside">kung fu panda 4</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44501#inside">kung fu panda 4 | original version</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44263#inside">la zona d'interesse</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44447#inside">led zeppelin: the song remains the same</a></div></div><div class="movieList"><div class="movieLink"><a href="../generic/scheda.php?id=44391#inside">may december</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44424#inside">priscilla</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44504#inside">priscilla | original version</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44260#inside">race for glory</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44477#inside">suga - agust d tour 'd-day' the movie</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44212#inside">un mondo a parte [2024]</a></div></div>				</div>
+            </div>
+            
+            <div id="credits">
+            	<strong>Victoria Cinema</strong> Via Ramelli, 101 Modena Tel. +39 059.454622 <a href="mailto:info@victoriacinema.it" class="link">info@victoriacinema.it</a> Partita Iva 02603471208<br /><strong>Credits:</strong> <a href="http://www.creaweb.it" target="_blank" class="link">Crea Informatica S.r.l.</a>  2024 &copy; Tutti i diritti riservati.<br /><a href="../victoria_cinema/lavoraconnoi.php#inside" class="link2 custom_md"><strong>LAVORA CON NOI</strong></a>
+            </div>
+        </div>
+        <!--footer_body close-->
+    </div></div>
+<!--container close-->
+</body>
+</html>

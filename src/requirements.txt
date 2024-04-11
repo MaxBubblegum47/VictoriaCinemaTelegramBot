@@ -1,0 +1,11 @@
+beautifulsoup4
+config
+python_telegram_bot
+requests
+flake8
+gunicorn
+flask
+lxml
+telebot
+pickle5
+pytest
