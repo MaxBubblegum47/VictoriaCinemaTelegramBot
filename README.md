@@ -16,7 +16,7 @@ BOTNAME = "place here the name of your bot"
 ```
 Then, after installing the requirements (I auto generated it with _pipreqs_), you can execute the following line:
 ```bash
-bash container.sh
+bash src/main.sh
 ```
 Note that: in all bash scripts I used _python3_ as python command. Make sure that your system has this command available, otherwise the script may not works at all.
 
