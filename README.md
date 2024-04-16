@@ -9,7 +9,7 @@ Little Bot that collects information from my local movie theater's website: http
 * Reservation link
 
 ## How to make it works?
-The first thigs to do is to create a file: _config.py_ and adding the following line:
+The first thigs to do is to create a file inside of src folder: _config.py_ and adding the following line:
 ```python
 TOKEN = "place your API key here"
 BOTNAME = "place here the name of your bot"
