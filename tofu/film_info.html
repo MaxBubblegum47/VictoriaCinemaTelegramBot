@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+
+<link href="../generic/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="../generic/css/main.css" rel="stylesheet" type="text/css" />
+<link href="../generic/css/reel.css" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Signika:300,400,600,700' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<title>Victoria Cinema</title>
+<script src="../generic/js/jquery.min.js" type="text/javascript"></script>
+<script src="../generic/js/jquery.lightbox-0.5.min.js" type="text/javascript"></script>
+<script src="../generic/js/jquery.timer.js" type="text/javascript"></script>
+<script src="../generic/js/jquery.preload.min.js" type="text/javascript"></script>
+<script src="../cvu/modules/prenoRapido.js" type="text/javascript"></script>
+<script src="../cvu/modules/cvu_tracker.js" type="text/javascript"></script>
+<script src="../cvu/modules/clientProgFile.js" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&v=3.7&key=AIzaSyAMl_bc-7xx527tIuB0JwQdR2g6MX86qXI" type="text/javascript"></script>
+
+<script src="https://contents.creaweb.it/cookie/jquery.cookie.js" type="text/javascript"></script>
+<script src="https://contents.creaweb.it/cookie/cookie_policy.js" type="text/javascript"></script>
+
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-7094040-14', 'auto');
+	ga('send', 'pageview');
+	ga('set', 'anonymizeIP',true);
+</script>
+<script src="../generic/js/navi.js" type="text/javascript"></script><link href="../generic/css/prezzi.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+	<span class="cinema" id="1760" style="display:none;"></span>
+<span class="webtic" id="5103" style="display:none;"></span>
+<script src="../cvu/modules/bannerTag.js" type="text/javascript"></script><style>div#container {background:url("../../contentImages/banner/") no-repeat scroll center top #000000}</style>
+	<div id="header">
+    	<div id="header_body">
+        	<a title="Victoria Cinema" href="../victoria_cinema/index.php"><img src="images/logo.png" alt="Victoria Cinema" title="Victoria Cinema" id="logo"/></a>
+            <div id="banner_leaderboard1">
+						<div style="text-align:center;"><img style="position:absolute; top:30px;" src="../generic/images/loader.gif" /></div>		<span class="banner_exp"></span>		<a href="../generic/scheda.php?id=44014#inside" class="cvuTrack" sender="[LEADERBOARD1]theholdoverslezionidivita][44014][LEADERBOARD][][.jpg" filename="theholdoverslezionidivita][44014][LEADERBOARD][][.jpg"><img src="../contentImages/banner/theholdoverslezionidivita][44014][LEADERBOARD][][.jpg" time="3000" id="leaderboard1_0" class="leaderboard1" tot="3" /></a>
+		<a href="../generic/scheda.php?id=44144#inside" class="cvuTrack" sender="[LEADERBOARD1]pareparecchioparigi][44144][LEADERBOARD][][.jpg" filename="pareparecchioparigi][44144][LEADERBOARD][][.jpg"><img src="../contentImages/banner/pareparecchioparigi][44144][LEADERBOARD][][.jpg" time="3000" id="leaderboard1_1" class="leaderboard1" tot="3" /></a>
+		<a href="" class="cvuTrack" sender="[LEADERBOARD1]" filename=""><img src="../contentImages/banner/" time="0" id="leaderboard1_2" class="leaderboard1" tot="3" /></a>
+
+				<script>var leaderboard1Max;var srcImg_leaderboard1 = new Array();$(".leaderboard1").hide();$.preload("#banner_leaderboard1 img", {onFinish:function(data){$("#banner_leaderboard1 div").hide();var j = 0;$("#banner_leaderboard1 .leaderboard1").each(function() {srcImg_leaderboard1[j] = $(this).attr("src");j++;});$(".leaderboard1").attr("src", "../generic/images/pix.gif");startleaderboard1(srcImg_leaderboard1);}});function startleaderboard1(srcImg) {$(".leaderboard1").hide();$("#leaderboard1_0").attr("src", srcImg[0]);$("#leaderboard1_0").show();var leaderboard1banner_leaderboard1 = 1;$.timer($("#leaderboard1_0").attr("time"), function (timer) {timer.reset($("#leaderboard1_"+leaderboard1banner_leaderboard1).attr("time"));leaderboard1Max = $(".leaderboard1").attr("tot");$(".leaderboard1").hide();$("#leaderboard1_"+leaderboard1banner_leaderboard1).attr("src", srcImg[leaderboard1banner_leaderboard1]);$("#leaderboard1_"+leaderboard1banner_leaderboard1).show();if(leaderboard1banner_leaderboard1 < leaderboard1Max-1)	leaderboard1banner_leaderboard1++;else leaderboard1banner_leaderboard1 = 0;});}</script>			</div>
+            <div id="menu">
+            	<!--<div class="btt_menu" id="btt_menu_programmazione">
+					<a title="Programmazione" href="../victoria_cinema/index.php" class="menu_link">PROGRAMMAZIONE</a>
+				</div>-->
+					<div class="btt_menu" id="btt_menu_home">
+					<a title="Programmazione" href="../victoria_cinema/index.php" class="menu_link">HOME</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_prossimamente">
+					<a title="Prossimamente" href="../victoria_cinema/prossimamente.php" class="menu_link">PROSSIMAMENTE</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_eventi">
+					<a title="Eventi" href="../victoria_cinema/eventi.php" class="menu_link">EVENTI</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_rassegne">
+					<a title="Rassegne" href="../victoria_cinema/rassegne.php" class="menu_link">RASSEGNE</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_prezziecard">
+					<a title="Prezzi e Card" href="../victoria_cinema/prezziecard.php" class="menu_link">PREZZI</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_infocinema">
+					<a title="Info Cinema" href="../victoria_cinema/infocinema.php" class="menu_link">INFO</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_dovesiamo">
+					<a title="Dove Siamo" href="../victoria_cinema/dovesiamo.php" class="menu_link">DOVE SIAMO</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_secondotempo">
+					<a title="Dove Siamo" href="../victoria_cinema/secondotempo.php" class="menu_link">SECONDO TEMPO</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_newsletter">
+					<a title="Newsletter" href="../generic/newsletter.php" class="menu_link">NEWSLETTER</a>
+				</div>
+                <div class="btt_menu" id="btt_menu_compleanni">
+					<a title="Compleanni" href="../victoria_cinema/compleanni.php" class="menu_link">COMPLEANNI</a>
+				</div>
+            </div>
+        </div>
+        <!--header_body close-->
+    </div>
+    <!--header close-->    
+    <script src="../generic/js/jssor.slider.mini.js" type="text/javascript"></script>
+<script>
+	jQuery(document).ready(function ($) {
+
+		var _SlideshowTransitions = [
+	  
+		];
+
+		var options = {
+			$AutoPlay: true,
+			$AutoPlaySteps: 1,
+			$AutoPlayInterval: 4000,
+
+			$SlideshowOptions: {
+				$Class: $JssorSlideshowRunner$,
+				$Transitions: _SlideshowTransitions,
+				$TransitionsOrder: 1,
+				$ShowLink: true
+			},
+
+			$BulletNavigatorOptions: {
+				$Class: $JssorBulletNavigator$,
+				$ChanceToShow: 2,
+				$AutoCenter: 0,
+				$Steps: 1,
+				$Lanes: 1,
+				$SpacingX: 10,
+				$SpacingY: 10,
+				$Orientation: 1
+			},
+
+			$ArrowNavigatorOptions: {
+				$Class: $JssorArrowNavigator$,
+				$ChanceToShow: 2
+			}
+		};
+
+		var jssor_slider2 = new $JssorSlider$("slider2_container", options);
+		
+		
+	});
+</script>
+
+    <div id="reel">
+    	<div id="reel_body">
+        
+        	<div id="reel_box">
+        		<div id="banner_reel">
+			
+			
+			 		<div id="slider2_container">
+			
+						<div u="slides" class="slides"><div><a href="#" class="cvuTrack noLink" sender="[REEL]enea][44211][REEL][VICTORIA_VICTORIA_CINEMA][.jpg" filename="enea][44211][REEL][VICTORIA_VICTORIA_CINEMA][.jpg"><img src="../contentImages/banner/enea][44211][REEL][VICTORIA_VICTORIA_CINEMA][.jpg" time="6000" id="reel_0" class="reel" tot="5" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]chisegnavince][44068][REEL][][.jpg" filename="chisegnavince][44068][REEL][][.jpg"><img src="../contentImages/banner/chisegnavince][44068][REEL][][.jpg" time="6000" id="reel_1" class="reel" tot="5" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]enea][44211][REEL][][.jpg" filename="enea][44211][REEL][][.jpg"><img src="../contentImages/banner/enea][44211][REEL][][.jpg" time="6000" id="reel_2" class="reel" tot="5" /></a>
+</div><div><a href="#" class="cvuTrack noLink" sender="[REEL]50kmallora][44193][REEL][][.jpg" filename="50kmallora][44193][REEL][][.jpg"><img src="../contentImages/banner/50kmallora][44193][REEL][][.jpg" time="6000" id="reel_3" class="reel" tot="5" /></a>
+</div></div>				
+                		<div u="navigator" class="jssorb01" style="position: absolute; top:306px; left:0px; bottom: 16px; right: 10px;">
+                    		<!-- bullet navigator item prototype -->
+                    		<div u="prototype" style="POSITION: absolute; WIDTH: 12px; HEIGHT: 12px;"></div>
+                		</div>
+                
+                
+                		<span u="arrowleft" class="jssora05l" style="width: 40px; height: 40px; top: 123px; left: 8px;">
+                		</span>
+                		<!-- Arrow Right -->
+                		<span u="arrowright" class="jssora05r" style="width: 40px; height: 40px; top: 123px; right: 8px">
+                		</span>
+                		<!-- Arrow Navigator Skin End -->
+            		</div>
+           		</div>
+        	</div>
+        	
+        	<div id="lastminute">
+            	<div id="lastminute_title"><span class="custom_md c1 big"><i class="fa fa-chevron-circle-down"></i> VCARD</span><br />
+            	<table width="270">
+  <tr>
+    <td style="vertical-align: top;"><img src="../generic/images/cardPrezzi.png" width="100" /></td>
+    <td style="vertical-align: top;"><span class="custom_lt big"><br />Per risparmiare sul biglietto<br />Per guadagnare tempo<br />Per evitare le code<br />Per prenotare gratis<br />Non sono nominative, non sono rimborsabili, sono utilizzabili tutti i giorni.<br /><br /><a href="../generic/abbonamenti.php?sc=5103#seatsframe" class="link linkExt"><strong>CLICCA ED ACQUISTA ORA!</strong></a></span></td>
+  </tr>
+</table>
+            </div>
+            </div>
+            
+            <!--<div id="lastminute">
+            	<div id="lastminute_title"><span class="custom_md c1 big"><i class="fa fa-chevron-circle-down"></i> LAST MINUTE FILM</span><br />
+                <span class="custom_lt big">Ogni mercoledì un film a soli &euro; 4,00!</span></div>
+        			
+				<img src="" id="lastLoc" alt="Last Minute Film" title="Last Minute Film"/>
+				<div id="lastTitle"></div>
+				<div id="lastInfo"></div>
+            </div>-->
+            
+            <div id="englishmovie">
+            	<div id="englishmovie_title"><span class="custom_md c1 big"><i class="fa fa-chevron-circle-down"></i> RASSEGNA EVENTI</span><br />
+                <!--<span class="custom_lt big">Ogni martedì un film in lingua originale!</span></div>-->
+            		
+				<div id="engTitle"></div>
+				<div id="engInfo"> <!--ore 17.50 e 21.00--></strong></div>
+				<div id="engBtt"><a href="../victoria_cinema/rassegne.php#linguaOriginale" class="link_engBtt">VISUALIZZA IL CALENDARIO</a></div>
+            </div>
+        
+        </div>
+        <!--reel_body close-->
+    </div>
+    <!--reel close-->    
+    	<a name="inside"></a>
+    <div id="prenotaRapido">    	
+    	<div id="prenotaRapido_body">
+        	<a name="seatsframe"></a> 
+        	<div id="title_prenotaRapido"><span class="c1">PRENOTA &amp; ACQUISTA</span> IN POCHI CLICK!</div>
+        	<form id="prenoRapido">
+            	<select id="sel_cine">
+                    <option value="null">Scegli il CINEMA</option>
+                </select>
+                
+                <select id="sel_film">
+                    <option value="null">Scegli il FILM</option>
+                </select>
+                
+                <select id="sel_giorno">
+                    <option value="null">Scegli il GIORNO</option>
+                </select>
+                
+                <select id="sel_ora">
+                    <option value="null">Scegli l'ORA</option>
+                </select>
+                <!--<div id="prenotaRapido_btt"></div>-->
+            </form>
+        </div>
+        <!--prenotaRapido_body close-->
+    </div>    
+    <div id="content">
+    	<div id="content_body">
+        	<div id="content_body_left">
+            
+            	<div class="title">PREZZI &amp; CARD</div>
+				
+				<!--<div class="text"><span class="c1">Si informa la gentile clientela che le scadenze delle card verranno modificate<br /> in fase di riapertura del cinema
+				<br />
+				Per acquisti di biglietti d'ingresso natalizi e/o card regalo si prega di: <br />
+				di presentarsi in libreria tutti i giorni dalle 10:00 alle 19:00, salvo nuove disposizioni governative</span></div>-->
+				
+                <div class="text">Visita questa pagina per essere sempre informato sui <strong>prezzi, le agevolazioni e le card</strong> che Victoria Cinema ti propone!</div>
+            
+					<!--<span class="c1"><strong><div class="progIstr"style="margin-left:0px;">
+					<span class="c1">
+					<strong>PREZZI VALIDI FINO AL 20 AGOSTO, DAL 21 AGOSTO CON L'USCITA DEL RE LEONE,<br>
+					I PREZZI AUMENTERANNO DI 50 CENTESIMI. </strong></span>
+					</div></strong></span><br><br> -->
+			
+            	<div class="priceTab"><div class="priceTab_row cleared"><div class="priceCaption">BIGLIETTO INTERO</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">INGRESSO INTERO</div><div class="priceInfo">tutto il giorno</div><div class="price">&euro; 9,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">MERCOLED&Igrave;</div><div class="priceInfo">esclusi festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">POMERIDIANO</div><div class="priceInfo">spettacoli prima delle ore 19.00, esclusi sabato, domenica, festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared"><div class="priceCaption">BIGLIETTO RIDOTTO</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">BAMBINI DAI 3 AI 12 ANNI</div><div class="priceInfo">tutti i giorni</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">OVER 65</div><div class="priceInfo">dal luned&igrave; al venerd&igrave;, prefestivi fino alle ore 18:59</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">MILITARI</div><div class="priceInfo">tutti i giorni</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">ACCOMPAGNATORI DISABILI</div><div class="priceInfo">tutti i giorni</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">INVALIDI</div><div class="priceInfo">tutti i giorni</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">GIORNALISTI</div><div class="priceInfo">tutti i giorni</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">UNIVERSITARI</div><div class="priceInfo">ogni luned&igrave;, esclusi festivi e prefestivi</div><div class="price">&euro; 6,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">TESSERA IO STUDIO</div><div class="priceInfo">da luned&igrave; a mercoled&igrave;, esclusi festivi e prefestivi</div><div class="price">&euro; 6,50</div></div><div class="priceTab_row cleared"><div class="priceCaption">CONVENZIONI</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">AGIS</div><div class="priceInfo">luned&igrave; e marted&igrave;, esclusi festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">INTESTATARI TESSERE COOP</div><div class="priceInfo">ingresso ridotto per possessore e accompagnatore, da luned&igrave; a gioved&igrave; tutto il giorno e venerd&igrave; per gli spettacoli prima delle 20:59, esclusi festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">INTESTATARI TESSERE UISP</div><div class="priceInfo">da luned&igrave; a gioved&igrave;, esclusi festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared"><div class="priceCaption">PROIEZIONE IN DOLBY ATMOS</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">INTERO ATMOS</div><div class="priceInfo">tutto il giorno</div><div class="price">&euro; 10,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">RIDOTTO ATMOS</div><div class="priceInfo">tutto il giorno</div><div class="price">&euro; 8,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">RIDOTTO ATMOS ETA?</div><div class="priceInfo">bambini dai 3 ai 12 tutti i giorni e over 65 dal luned&igrave; al venerd&igrave;, prefestivi fino alle ore 18:59</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">UNIVERSITARI ATMOS</div><div class="priceInfo">ogni luned&igrave;, esclusi festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">TESSERA IO STUDIO ATMOS</div><div class="priceInfo">da luned&igrave; a mercoled&igrave;, esclusi festivi e prefestivi</div><div class="price">&euro; 7,50</div></div><div class="priceTab_row cleared even"><div class="priceLabel">TESSERA COOP ATMOS</div><div class="priceInfo">da luned&igrave; a gioved&igrave; tutto il giorno e venerd&igrave; per gli spettacoli prima delle 20:59, esclusi festivi e prefestivi</div><div class="price">&euro; 8,50</div></div><div class="priceTab_row cleared"><div class="priceCaption"><span style="font-weight: normal; color: #FFFFFF;"><br/><br/><span class="c1">Da noi puoi spendere il tuo Bonus Cultura 18APP/ Bonus Docente<br/><br/>I VOUCHER VANNO SCARICATI CON LA FUNZIONE "ESERCIZIO FISICO" E NON "VENDITA ON LINE"<br/><br/>Per le proiezioni evento non sono valide le cinecard<br/><br/>Il biglietto per i film in 3D &egrave; maggiorato di 2 &euro;<br/><br/>Il costo di prenotazione per l&#039;acquisto online &egrave; di 0.50 &euro;, le prenotazioni vanno ritirate <br/>almeno 30 minuti prima dell&#039;orario di inizio del film.<br/><br/>Il locale si riserva la possibilit&agrave; di spostare i posti acquistati o prenotati a seconda delle necessit&agrave;.</span><br /><br/><span class="c1"><strong>Importante!</strong></span> Per i film in uscita il mercoled&igrave; il prezzo del biglietto sar&agrave; <strong>intero</strong>. Per le visioni 3D non sono valide le tessere VCard, sono invece valide le tessere VCard 3D. La tariffa pomeridiana non &egrave; valida nelle giornate dal 20 dicembre al 10 gennaio compreso. Per gli eventi fuori dalla normale programmazione il prezzo e le convenzioni potrebbero subire delle variazioni indipendenti dalla Direzione.<br /><br />Si informa la gentile clientela che i film inizieranno circa 10/15 minuti dopo l&#039;orario indicato.<br />La programmazione potrebbe subire variazioni indipendenti dalla Direzione.</span></div></div><div class="priceTab_row cleared"><div class="priceCaption">CARTE</div></div><div class="priceTab_row cleared odd"><div class="priceLabel">VICTORIA CARD<br /><img src="../generic/images/cardPrezzi.png" width="166" height="240" /></div><div class="priceInfo"><strong><span class="c1">VICTORIA &egrave; VCard!</span></strong><br /><strong>Per risparmiare sul biglietto</strong><br /><strong>Per guadagnare tempo</strong><br />preacquistando i biglietti telefonicamente, li potrai ritirare fino all&#039;orario di inizio dello spettacolo<br /><strong>Per evitare le code</strong><br />utilizzando il distributore automatico<br /><strong>Per prenotare gratis</strong><br />nessun supplemento di prenotazione<br /><strong>Non sono nominative. Utilizzabili tutti i giorni.</strong><br /><br />                        Scegli la <strong>VCard</strong> che pi&ugrave; si addice al cinefilo che &egrave; in te:<br /><br /><span class="c1"><strong>VCard 7 ingressi</strong></span> &egrave; una card prepagata del valore di <strong>49,00 &euro;</strong> che d&agrave; diritto a 7 ingressi in qualsiasi giorno della settimana e orario, incluse le proiezioni 3D, con un massimo di 2 ingressi per spettacolo e una validit&agrave; di 8 mesi dalla data di acquisto.<br /><br /><span class="c1"><strong>VCard 10 ingressi</strong></span> &egrave; una card prepagata del valore di <strong>60,00 &euro;</strong> che d&agrave; diritto a 10 ingressi (escluse proiezioni 3D) in qualsiasi giorno della settimana e orario, con un massimo di 2 ingressi per spettacolo e una validit&agrave; di 6 mesi dalla data di acquisto.<br /><br /><span class="c1"><strong>VCard Online 10 ingressi</strong></span> &egrave; ACQUISTABILE SOLO ONLINE, &egrave; una card prepagata del valore di <strong>60,00 &euro;</strong> che d&agrave; diritto a 10 ingressi (escluse proiezioni 3D) in qualsiasi giorno della settimana e orario, con un massimo di 2 ingressi per spettacolo e una validit&agrave; di 6 mesi dalla data di acquisto.<br/><br/><a href="../generic/abbonamenti.php?sc=5103&sp=233816#seatsframe" class="link linkExt noApp"><strong>CLICCA ED ACQUISTA ORA!</strong></a><br/><br/> Le prenotazioni sono gratuite.<br/>Non &egrave; nominativa. Non &egrave; rimborsabile.</div></div></div>            
+            </div>
+            
+            <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/it_IT/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+            
+            <div id="content_body_right">
+            
+            	<div id="social">
+                	<span class="custom_lt big"><i class="fa fa-chevron-circle-down"></i> SEGUICI SULLE NOSTRE <span class="custom_bd">PAGINE SOCIAL:</span></span><br />
+                	<a href="https://www.facebook.com/cinemavictoria.modena?ref=hl" class="link linkExt"><i class="fa fa-facebook-square"></i></a> <a href="https://twitter.com/VictoriaCinema?lang=it" class="link linkExt"><i class="fa fa-twitter-square"></i></a> <a href="https://plus.google.com/u/0/110892221190053862668/posts" class="link linkExt"><i class="fa fa-google-plus-square"></i></a> <a href="https://www.youtube.com/user/CinemaVictoriaModena" class="link linkExt"><i class="fa fa-youtube-square"></i></a> <a href="http://it.pinterest.com/cinemavictoria/" class="link linkExt"><i class="fa fa-pinterest-square"></i></a> <a href="http://instagram.com/cinemavictoriamodena" class="link linkExt"><i class="fa fa-instagram"></i></a>
+                </div>
+                
+                <div class="rectangle_box">
+                	<div class="fb-like-box" data-href="https://www.facebook.com/cinemavictoria.modena?ref=hl" data-width="300" data-height="300" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="false"></div>
+                </div>
+            
+            	<div class="rectangle_box">
+                	<div id="mondadori">
+    					<a href="../victoria_cinema/libreria.php#inside"><img src="../generic/images/logo_mondadori.jpg" width="300" height="73" /></a>
+                    </div>
+    			</div>
+            
+            	<div class="rectangle_box">
+    				<div id="rectangle1">
+        						<div style="text-align:center;"><img style="position:absolute; top:30px;" src="../generic/images/loader.gif" /></div>		<a href="../generic/scheda.php?id=44245#inside" class="cvuTrack" sender="[RECTANGLE1]dieciminuti][44245][RECTANGLE][][.jpg" filename="dieciminuti][44245][RECTANGLE][][.jpg"><img src="../contentImages/banner/dieciminuti][44245][RECTANGLE][][.jpg" time="30000" id="rectangle1_0" class="rectangle1" tot="2" /></a>
+		<a href="" class="cvuTrack" sender="[RECTANGLE1]" filename=""><img src="../contentImages/banner/" time="0" id="rectangle1_1" class="rectangle1" tot="2" /></a>
+
+				<script>var rectangle1Max;var srcImg_rectangle1 = new Array();$(".rectangle1").hide();$.preload("#rectangle1 img", {onFinish:function(data){$("#rectangle1 div").hide();var j = 0;$("#rectangle1 .rectangle1").each(function() {srcImg_rectangle1[j] = $(this).attr("src");j++;});$(".rectangle1").attr("src", "../generic/images/pix.gif");startrectangle1(srcImg_rectangle1);}});function startrectangle1(srcImg) {$(".rectangle1").hide();$("#rectangle1_0").attr("src", srcImg[0]);$("#rectangle1_0").show();var rectangle1rectangle1 = 1;$.timer($("#rectangle1_0").attr("time"), function (timer) {timer.reset($("#rectangle1_"+rectangle1rectangle1).attr("time"));rectangle1Max = $(".rectangle1").attr("tot");$(".rectangle1").hide();$("#rectangle1_"+rectangle1rectangle1).attr("src", srcImg[rectangle1rectangle1]);$("#rectangle1_"+rectangle1rectangle1).show();if(rectangle1rectangle1 < rectangle1Max-1)	rectangle1rectangle1++;else rectangle1rectangle1 = 0;});}</script>					</div>
+    			</div>
+                
+                <div class="rectangle_box">
+    				<div id="rectangle2">
+        						<div style="text-align:center;"><img style="position:absolute; top:30px;" src="../generic/images/loader.gif" /></div>		<a href="../generic/scheda.php?id=44068#inside" class="cvuTrack" sender="[RECTANGLE2]chisegnavince][44068][RECTANGLE][][.jpg" filename="chisegnavince][44068][RECTANGLE][][.jpg"><img src="../contentImages/banner/chisegnavince][44068][RECTANGLE][][.jpg" time="3000" id="rectangle2_0" class="rectangle2" tot="4" /></a>
+		<a href="../generic/scheda.php?id=44067#inside" class="cvuTrack" sender="[RECTANGLE2]thebeekeeper][44067][RECTANGLE][][.jpg" filename="thebeekeeper][44067][RECTANGLE][][.jpg"><img src="../contentImages/banner/thebeekeeper][44067][RECTANGLE][][.jpg" time="3000" id="rectangle2_1" class="rectangle2" tot="4" /></a>
+		<a href="../generic/scheda.php?id=44211#inside" class="cvuTrack" sender="[RECTANGLE2]enea][44211][RECTANGLE][][.jpg" filename="enea][44211][RECTANGLE][][.jpg"><img src="../contentImages/banner/enea][44211][RECTANGLE][][.jpg" time="3000" id="rectangle2_2" class="rectangle2" tot="4" /></a>
+		<a href="" class="cvuTrack" sender="[RECTANGLE2]" filename=""><img src="../contentImages/banner/" time="0" id="rectangle2_3" class="rectangle2" tot="4" /></a>
+
+				<script>var rectangle2Max;var srcImg_rectangle2 = new Array();$(".rectangle2").hide();$.preload("#rectangle2 img", {onFinish:function(data){$("#rectangle2 div").hide();var j = 0;$("#rectangle2 .rectangle2").each(function() {srcImg_rectangle2[j] = $(this).attr("src");j++;});$(".rectangle2").attr("src", "../generic/images/pix.gif");startrectangle2(srcImg_rectangle2);}});function startrectangle2(srcImg) {$(".rectangle2").hide();$("#rectangle2_0").attr("src", srcImg[0]);$("#rectangle2_0").show();var rectangle2rectangle2 = 1;$.timer($("#rectangle2_0").attr("time"), function (timer) {timer.reset($("#rectangle2_"+rectangle2rectangle2).attr("time"));rectangle2Max = $(".rectangle2").attr("tot");$(".rectangle2").hide();$("#rectangle2_"+rectangle2rectangle2).attr("src", srcImg[rectangle2rectangle2]);$("#rectangle2_"+rectangle2rectangle2).show();if(rectangle2rectangle2 < rectangle2Max-1)	rectangle2rectangle2++;else rectangle2rectangle2 = 0;});}</script>					</div>
+    			</div>
+                
+                <div id="app">
+                	<span class="custom_nm big"><i class="fa fa-chevron-circle-down"></i> VICTORIA CINEMA &Egrave; ANCHE <span class="custom_bd">APP</span>!</span>
+        			<div id="appstore">
+            			<a href="https://itunes.apple.com/it/app/id516785358?mt=8" class="link linkExt custom_lt big">SCARICA DA <span class="custom_md">APP STORE!</span></a>
+					</div>
+            		<div id="googleplay">
+            			<a href="https://play.google.com/store/apps/details?id=it.creaweb.victoria" class="link linkExt custom_lt big">SCARICA DA <span class="custom_md">GOOGLE PLAY!</span></a>
+					</div>
+        		</div>
+                
+                <div id="partner">
+                	
+                    
+					<a href="http://www.radiobruno.it" class="linkExt"><img src="../generic/images/logo_radiobruno.png" width="286" height="94" /></a><br /><br />
+					<a href="https://www.dolby.com/us/en/technologies/cinema/dolby-atmos.html" class="linkExt"><img src="../generic/images/logo_dolby.jpg" width="286" height="161" /></a><br /><br />
+                    
+					<a href="http://tadinieverza.eu" class="linkExt"><img src="../generic/images/logotadinieverza.jpg" width="280" height="300" /></a><br /><br />
+					<a href="https://www.modenafumetto.com" class="linkExt"><img src="../generic/images/logo_fumetto.jpg" width="288" height="224" /></a><br /><br />
+					<!--<a href="https://www.gimfive.com/palestra/Modena-ovest" class="linkExt"><img src="../generic/images/logo_gimefive.jpg" width="286" height="328" /></a><br /><br />-->
+					<!--<a href="https://ohmodena.it/" class="linkExt"><img src="../generic/images/logo_ohmodena.jpg" width="287" height="218" /></a><br /><br />-->
+                </div>
+            
+            </div>            
+        </div>
+        <!--content_body close-->
+    </div>
+    <!--content close-->
+    	<div id="footer">
+    	<div id="footer_body">
+        	<div id="footer_bodyList" class="clearfix">
+            	<div id="footer_bodyList_film">
+                	<div class="title">SCEGLI IL FILM</div>
+					<div class="movieList"><div class="movieLink"><a href="../generic/scheda.php?id=44193#inside">50km all'ora</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43370#inside">aquaman e il regno perduto</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44068#inside">chi segna vince</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44063#inside">come pu&ograve; uno scoglio</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43985#inside">c'&egrave; ancora domani</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44211#inside">enea</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43861#inside">ferrari [2023]</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44064#inside">il ragazzo e l'airone</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44268#inside">mean girls [2024]</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44270#inside">next goal wins | original version con sottotitoli in italiano</a></div></div><div class="movieList"><div class="movieLink"><a href="../generic/scheda.php?id=44206#inside">one life [2023]</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44259#inside">one life [2023] | original version con sottotitoli in italiano</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43605#inside">prendi il volo</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43608#inside">succede anche nelle migliori famiglie</a></div><div class="movieLink"><a href="../generic/scheda.php?id=44067#inside">the beekeeper</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43607#inside">wish</a></div><div class="movieLink"><a href="../generic/scheda.php?id=43606#inside">wonka</a></div></div>				</div>
+            </div>
+            
+            <div id="credits">
+            	<strong>Victoria Cinema</strong> Via Ramelli, 101 Modena Tel. +39 059.454622 <a href="mailto:info@victoriacinema.it" class="link">info@victoriacinema.it</a> Partita Iva 02603471208<br /><strong>Credits:</strong> <a href="http://www.creaweb.it" target="_blank" class="link">Crea Informatica S.r.l.</a>  2024 &copy; Tutti i diritti riservati.<br /><a href="../victoria_cinema/lavoraconnoi.php#inside" class="link2 custom_md"><strong>LAVORA CON NOI</strong></a>
+            </div>
+        </div>
+        <!--footer_body close-->
+    </div></div>
+<!--container close-->
+</body>
+</html>
