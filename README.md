@@ -62,3 +62,6 @@ If you want to run the program without thinking to much about docker, just `CTRL
 - `docker run --name my-bot-container my-bot-image`
 
 If for some reason you have done this in advance and now the terminal is telling you that this image exists yet, you can check it by using `docker images` to list all the possible images and the simply `docker run <name of the image>`.
+
+# WARNING
+In order to make the github pipeline works properly you need to add your docker credentials inside of .github/actions.yml and the bot's credentials inside of src/config.py.
