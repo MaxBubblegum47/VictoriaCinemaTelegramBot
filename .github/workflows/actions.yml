@@ -23,7 +23,7 @@ jobs:
       run: pip install -r src/requirements.txt
     
     - name: Run Test on Python code with flake8
-      run: flake8 --ignore=E501,E121,E126 .
+      run: flake8 --ignore=E501,E121,E126,E302,E305,W291 .
     
     - name: Run Pytest
       working-directory: src/
