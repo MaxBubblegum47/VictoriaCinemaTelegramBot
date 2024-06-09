@@ -50,18 +50,11 @@ The company that seems to create website (_php_ based) for movie theaters. It ha
 Simply do `bash main.sh`
 
 #### How to push to docker hub
-Commands list (**you need to change maxbubblegum wit your user**):
-- docker login --username maxbubblegum
-- docker build . -t maxbubblegum47/victoriacinemabot:latest
-- docker tag "tag from the build" maxbubblegum/victoriacinemabot
-- docker push maxbubblegum/victoriacinemabot
+Commands list (**you need to change maxbubblegum wit your user and log with your credentials**):
+- docker build .
+- docker tag maxbubblegum/victoriacinemabot:1.1
+- docker push maxbubblegum/victoriacinemabot:1.1
 
 #### How to run the docker image
 If you want to run the program without thinking to much about docker, just `CTRL + C CTRL + V` this two commands in your terminal:
-- `docker build -t my-bot-image .` (in VictoriaCinema main folder)
-- `docker run --name my-bot-container my-bot-image`
-
-If for some reason you have done this in advance and now the terminal is telling you that this image exists yet, you can check it by using `docker images` to list all the possible images and the simply `docker run <name of the image>`.
-
-# WARNING
-In order to make the github pipeline works properly you need to add your docker credentials inside of .github/actions.yml and the bot's credentials inside of src/config.py.
+- `docker run maxbubblegum/victoriacinemabot:1.1
