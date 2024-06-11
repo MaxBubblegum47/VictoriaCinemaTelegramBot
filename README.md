@@ -51,8 +51,7 @@ Simply do `bash main.sh`
 
 #### How to push to docker hub
 Commands list (**you need to change maxbubblegum wit your user and log with your credentials**):
-- docker build .
-- docker tag maxbubblegum/victoriacinemabot:1.1
+- docker build . -t maxbubblegum/victoriacinemabot:1.1
 - docker push maxbubblegum/victoriacinemabot:1.1
 
 #### How to run the docker image
